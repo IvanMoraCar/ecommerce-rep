@@ -1,0 +1,20 @@
+# created by virtualenv automatically
+*.pyc
+__pycache__/
+db.sqlite3
+media/
+venv/
+.idea/
+*.log
+*.pot
+*.py[cod]
+*.so
+*.swp
+.DS_Store
+.coverage
+.env
+.eggs/
+*.egg-info/
+.mypy_cache/
+.pytest_cache/
+.vscode/
