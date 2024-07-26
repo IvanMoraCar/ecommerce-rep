@@ -77,13 +77,14 @@ WSGI_APPLICATION = 'ecommerce_imc.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'ecommerce_bd',
-        'USER': 'imc',
+        'NAME': 'ecommerce_conn',
+        'USER': 'root',
         'PASSWORD': 'polo09',
-        'HOST': 'localhost',
+        'HOST': 'db',
         'PORT': '3306',
     }
 }
+
 
 
 
